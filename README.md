@@ -22,7 +22,7 @@ A Filament panel for GDPR data subject requests (Arts. 15 to 22). It is the UI o
 - **Fulfil** access and portability (JSON export, downloadable from the request) and erasure (anonymizes the subject's records).
 - **Complete** the rights answered by hand (confirmation, correction, sharing information...) with the response you gave, or **reject** with a reason.
 - Overdue requests in red, an "Overdue" filter, and a navigation badge with open requests (red when one is overdue).
-- English (more languages coming).
+- 19 languages.
 
 ## Compatibility
 
