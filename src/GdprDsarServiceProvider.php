@@ -2,17 +2,17 @@
 
 namespace JeffersonGoncalves\Filament\GdprDsar;
 
+use JeffersonGoncalves\FilamentPluginCore\BasePackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class GdprDsarServiceProvider extends PackageServiceProvider
+class GdprDsarServiceProvider extends BasePackageServiceProvider
 {
+    public static string $name = 'filament-gdpr-dsar';
+
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('filament-gdpr-dsar')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigrations();
+            ->name(static::$name)
+            ->hasTranslations();
     }
 }
